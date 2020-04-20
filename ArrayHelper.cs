@@ -12,6 +12,7 @@ namespace DZ_13_ArrayHelperSpace
             arr=newArr;
             return a;
         }
+
         public static int Push(ref T[] arr, T elem)
         {
             T[] newArr = new T[arr.Length + 1];
@@ -20,7 +21,8 @@ namespace DZ_13_ArrayHelperSpace
             newArr[arr.Length] = elem;
             arr = newArr;
             return arr.Length;
-        } 
+        }
+
         public static T Shift(ref T[] arr)
         {
             T a;
@@ -31,6 +33,7 @@ namespace DZ_13_ArrayHelperSpace
             arr = newArr;
             return a;
         }
+
         public static int Unshift(ref T[] arr, T elem)
         {
             T[]newArr = new T [arr.Length + 1];
@@ -40,5 +43,20 @@ namespace DZ_13_ArrayHelperSpace
             newArr [arr.Length] = elem;
             return arr.Length;
         }       
+
+        public static T[] Slice(T[] arr, int beginindex, int endindex)
+        {
+            int len = endindex - beginindex + 1;
+            if(len < 1 || len > arr.Length || endindex > (arr.Length - 1) || beginindex < 0){
+                return new T[0];
+            }
+            T[]newArr = new T [len];
+            for(int i = beginindex; i <= endindex; i++)
+            {
+                newArr[i - beginindex] = arr[i];
+            }
+            return newArr;
+        }       
+        
     }
 }
