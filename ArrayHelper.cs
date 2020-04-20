@@ -6,11 +6,20 @@ namespace DZ_13_ArrayHelperSpace
         {
             T a;
             a=arr[arr.Length-1];
-            T[] newArr = new T[arr.Length-1];
-            for ( int i = 0; i < arr.Length-1; i++ )
+            T[] newArr = new T[arr.Length - 1];
+            for (int i = 0; i < arr.Length - 1; i++ )
                 newArr[i] = arr[i]; 
             arr=newArr;
             return a;
+        }
+        public static int Push(ref T[] arr, T elem)
+        {
+            T[] newArr = new T[arr.Length + 1];
+            for (int i = 0; i < arr.Length; i++ )
+                newArr[i] = arr[i]; 
+            newArr[arr.Length] = elem;
+            arr = newArr;
+            return arr.Length;
         } 
     }
 }
