@@ -29,7 +29,7 @@ namespace DZ_13_ArrayHelperSpace
             a = arr[0];
             T[] newArr = new T[arr.Length-1];
             for ( int i = 1; i < arr.Length; i++ )
-                newArr[i] = arr[i]; 
+                newArr[i - 1] = arr[i]; 
             arr = newArr;
             return a;
         }
@@ -51,12 +51,12 @@ namespace DZ_13_ArrayHelperSpace
                 return new T[0];
             }
             T[]newArr = new T [len];
+
             for(int i = beginindex; i <= endindex; i++)
             {
                 newArr[i - beginindex] = arr[i];
             }
             return newArr;
-        }       
-        
+        }               
     }
 }

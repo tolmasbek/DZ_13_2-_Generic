@@ -1,0 +1,13 @@
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\bin\Debug\netcoreapp3.1\DZ_13_ArrayHelper.exe
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\bin\Debug\netcoreapp3.1\DZ_13_ArrayHelper.deps.json
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\bin\Debug\netcoreapp3.1\DZ_13_ArrayHelper.runtimeconfig.json
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\bin\Debug\netcoreapp3.1\DZ_13_ArrayHelper.runtimeconfig.dev.json
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\bin\Debug\netcoreapp3.1\DZ_13_ArrayHelper.dll
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\bin\Debug\netcoreapp3.1\DZ_13_ArrayHelper.pdb
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\obj\Debug\netcoreapp3.1\DZ_13_ArrayHelper.csprojAssemblyReference.cache
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\obj\Debug\netcoreapp3.1\DZ_13_ArrayHelper.csproj.CoreCompileInputs.cache
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\obj\Debug\netcoreapp3.1\DZ_13_ArrayHelper.AssemblyInfoInputs.cache
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\obj\Debug\netcoreapp3.1\DZ_13_ArrayHelper.AssemblyInfo.cs
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\obj\Debug\netcoreapp3.1\DZ_13_ArrayHelper.dll
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\obj\Debug\netcoreapp3.1\DZ_13_ArrayHelper.pdb
+C:\Users\Tolmasbek\Desktop\DZ_13_ArrayHelper\obj\Debug\netcoreapp3.1\DZ_13_ArrayHelper.genruntimeconfig.cache
