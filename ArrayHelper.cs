@@ -21,5 +21,15 @@ namespace DZ_13_ArrayHelperSpace
             arr = newArr;
             return arr.Length;
         } 
+        public static T Shift(ref T[] arr)
+        {
+            T a;
+            a=arr[0];
+            T[] newArr = new T[arr.Length-1];
+            for ( int i = 1; i < arr.Length; i++ )
+                newArr[i] = arr[i]; 
+            arr=newArr;
+            return a;
+        }
     }
 }
