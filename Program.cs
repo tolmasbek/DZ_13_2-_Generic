@@ -24,7 +24,7 @@ namespace DZ_13_ArrayHelper
                     int elem = ArrayHelper<int>.Pop(ref array);
                     System.Console.WriteLine(elem);
                     for(int i = 0; i < array.Length; i++)
-                    System.Console.Write(array[i]);
+                    System.Console.Write(array[i] + " ");
                     break;
                 }
                 
@@ -59,23 +59,8 @@ namespace DZ_13_ArrayHelper
                 }
                 case 5:
                 {
-                    for(int i = 0; i < array.Length; i++)
-                    System.Console.Write(array[i] + " ");
-                    
-                    System.Console.WriteLine();
-
-                    System.Console.Write("Введите начальный beginindex: ");
-                    int a = int.Parse(Console.ReadLine()); 
-                    
-                    System.Console.Write("Введите конечный endindex: ");
-                    int b = int.Parse(Console.ReadLine());
-                    
-                    System.Console.WriteLine("Ваш массив с началом beginindex и концом endindex");
-                    int[] array2 = ArrayHelper<int>.Slice(array, a, b);
-                    foreach(int item in array2)
-                    {
-                        System.Console.Write(item + " ");
-                    }
+                    System.Console.WriteLine("Ваш массив");
+                    int[]Arr = ArrayHelper<int>.Slice<int>(array);
                     break;
                 }
             }    
